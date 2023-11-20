@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Specify your report name and location -->
+        <extent>
+            <reportname>Test Automation Report</reportname>
+            <outputdir>/path/to/report/directory</outputdir>
+        </extent>
+        
+        <!-- Choose the document and protocol used for report -->
+        <network>
+            <documenttitle>Automation Test Report</documenttitle>
+            <protocol>HTTPS</protocol>
+        </network>
+    </configuration>
+</extentreports>

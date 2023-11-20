@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Ibanking.com Suite">
+    <listeners>
+        <listener class-name="Ibanking.com.TestResultListener" />
+    </listeners>
+    
+    <test name="Banking App Test">
+        <parameter name="browser" value="chrome" />
+        <classes>
+           <class name="Ibanking.com.testcases.TC_LoginTest_001" /> 
+            <!--  --><class name="Ibanking.com.testcases.TC_LoginDDT_002"/> -->
+            <class name="Ibanking.com.testcases.TC_AddCustomerTest_003"/>
+            <!-- You can include more test classes here -->
+        </classes>
+    </test>
+</suite>
+
+
+
+
